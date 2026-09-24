@@ -17,7 +17,7 @@ export default function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter basename="/worldwise-travel-app">
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route index element={<Homepage />} />
             <Route path="product" element={<Product />} />
