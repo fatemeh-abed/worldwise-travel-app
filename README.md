@@ -1,8 +1,35 @@
-# React + Vite
+# 🌍 WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A travel tracking web app built with **React**.
+WorldWise allows users to explore cities, view their locations on an interactive map, and keep track of the places they have visited.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🗺️ Interactive map with **React Leaflet**
+* 📍 View cities and their locations
+* ➕ Add visited cities
+* 📝 Add notes and visit dates
+* 🗑️ Delete cities
+* 🔐 Protected routes and simple authentication flow
+* 🧭 Client-side routing with **React Router**
+* 📱 Responsive user interface
+
+## 🛠️ Tech Stack
+
+* React
+* React Router
+* Context API
+* useReducer
+* React Leaflet
+* React DatePicker
+* Vite
+* JSON Server
+* CSS
+
+## 🚀 Live Demo
+
+https://fatemeh-abed.github.io/worldwise-travel-app/
+
+## 📌 Project
+
+This project was built as part of my journey to deepen my understanding of **modern React development**, including Context API, reducers, React Router, reusable components, and API-based data management.
