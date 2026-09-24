@@ -17,7 +17,7 @@ export default function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/worldwise-travel-app">
           <Routes>
             <Route index element={<Homepage />} />
             <Route path="product" element={<Product />} />
